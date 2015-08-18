@@ -17,7 +17,7 @@
         </Grid.ColumnDefinitions>
         <Button Style="{StaticResource SplitViewTogglePaneButtonStyle}"
                 Click="ShowSliptView"/>
-        <TextBlock Text="ListView/GridView Samples " 
+        <TextBlock Text="ListView/GridView Samples  " 
                        VerticalAlignment="Center"
                        Style="{ThemeResource TitleTextBlockStyle}" 
                        Grid.Column="1"/>
