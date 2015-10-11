@@ -83,6 +83,6 @@
             </ListView.GroupStyle>
         </ListView>
         
-        <local:SamplesPane x:Name="MySamplesPane" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        <local:SamplesPane x:Name="MySamplesPane" Grid.ColumnSpan="2" Grid.RowSpan="2" Loaded="MySamplesPane_Loaded"/>
     </Grid>
 </Page>

@@ -15,7 +15,12 @@ namespace ListViewSample
         }
         private void ShowSliptView(object sender, RoutedEventArgs e)
         {
-            MySamplesPane.SamplesSplitView.IsPaneOpen = !MySamplesPane.SamplesSplitView.IsPaneOpen;
+            //MySamplesPane.SamplesSplitView.IsPaneOpen = !MySamplesPane.SamplesSplitView.IsPaneOpen;
+        }
+
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            ((Frame)Window.Current.Content).Navigate(typeof(MasterDetailSelection));
         }
     }
 }

@@ -27,7 +27,7 @@ namespace ListViewSample
             // Get the contacts from a Service
             // Remember to enable the NavigationCacheMode of this Page to avoid
             // load the data every time user navigates back and forward.    
-            Contacts = Contact.GetContacts(140);
+            Contacts = Contact.GetContacts(1);
             if (Contacts.Count > 0)
             {
                 MasterListView.ItemsSource = Contacts;
